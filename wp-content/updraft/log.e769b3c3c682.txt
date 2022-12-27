@@ -1,0 +1,928 @@
+0000.001 (0) Opened log file at time: Tue, 06 Sep 2022 07:44:41 +0000 on http://localhost/nafis
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.19 WP: 6.0.2 PHP: 8.1.6 (apache2handler, Windows NT DESKTOP-CR7R9NH 10.0 build 22000 (Windows 11) AMD64) MySQL: 10.4.24-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.6 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 118.7M | 120M) multisite: N openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.006 (0) Free space on disk containing Updraft's temporary directory: 73434.4 MB
+0000.012 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.015 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.035 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1662368229, seconds_ago=82052)
+0000.042 (0) Set semaphore last lock (fd) time to 2022-09-06 07:44:41
+0000.047 (0) Semaphore lock (fd) complete
+0000.060 (0) Backup run: resumption=0, nonce=e769b3c3c682, file_nonce=e769b3c3c682 begun at=1662450281 (0s ago), job type=backup
+0000.063 (0) Scheduling a resumption (1) after 583 seconds (1662450864) in case this run gets aborted
+0000.109 (0) Checking if we have a zip executable available
+0000.112 (0) Creation of backups of directories: beginning
+0000.118 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0011.011 (0) Total entities for the zip file: 2929 directories, 13496 files (0 skipped as non-modified), 213.4 MB
+0011.021 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0011.149 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 100 files added (on-disk size: 565 KB)
+0011.181 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 200 files added (on-disk size: 565 KB)
+0011.217 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 300 files added (on-disk size: 565 KB)
+0011.250 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 400 files added (on-disk size: 565 KB)
+0011.282 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 500 files added (on-disk size: 565 KB)
+0011.315 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 600 files added (on-disk size: 565 KB)
+0011.347 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 700 files added (on-disk size: 565 KB)
+0011.381 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 800 files added (on-disk size: 565 KB)
+0011.413 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 900 files added (on-disk size: 565 KB)
+0011.447 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 1000 files added (on-disk size: 565 KB)
+0011.449 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (22.5 MB, 13496 files batched, 1001 (1002) added so far); re-opening (prior size: 565 KB)
+0016.939 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 1100 files added (on-disk size: 6277.9 KB)
+0016.977 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 1200 files added (on-disk size: 6277.9 KB)
+0017.010 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 1300 files added (on-disk size: 6277.9 KB)
+0017.051 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 1400 files added (on-disk size: 6277.9 KB)
+0017.102 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 1500 files added (on-disk size: 6277.9 KB)
+0017.147 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 1600 files added (on-disk size: 6277.9 KB)
+0017.189 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 1700 files added (on-disk size: 6277.9 KB)
+0017.229 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 1800 files added (on-disk size: 6277.9 KB)
+0017.267 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 1900 files added (on-disk size: 6277.9 KB)
+0017.271 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 13496 files batched, 902 (1904) added so far); re-opening (prior size: 6277.9 KB)
+0021.515 (0) A useful amount of data was added after this amount of zip processing: 4.8 s (normalised: 4.8 s, rate: 5356.5 KB/s)
+0021.517 (0) Performance is good - will increase the amount of data we attempt to batch (time=4.7805960178375, normalised_time=4.7792567378999, max_time=21.515702962875, data points known=1, old_max_bytes=26214400, new_max_bytes=70808655)
+0021.574 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 2000 files added (on-disk size: 13331.2 KB)
+0021.610 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 2100 files added (on-disk size: 13331.2 KB)
+0021.651 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 2200 files added (on-disk size: 13331.2 KB)
+0021.694 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 2300 files added (on-disk size: 13331.2 KB)
+0021.740 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 2400 files added (on-disk size: 13331.2 KB)
+0021.799 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 2500 files added (on-disk size: 13331.2 KB)
+0021.856 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 2600 files added (on-disk size: 13331.2 KB)
+0021.914 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 2700 files added (on-disk size: 13331.2 KB)
+0021.958 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 2800 files added (on-disk size: 13331.2 KB)
+0022.015 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 2900 files added (on-disk size: 13331.2 KB)
+0022.019 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (20.3 MB, 13496 files batched, 1001 (2905) added so far); re-opening (prior size: 13331.2 KB)
+0026.001 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 3000 files added (on-disk size: 20091.6 KB)
+0026.042 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 3100 files added (on-disk size: 20091.6 KB)
+0026.082 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 3200 files added (on-disk size: 20091.6 KB)
+0026.119 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 3300 files added (on-disk size: 20091.6 KB)
+0026.156 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 3400 files added (on-disk size: 20091.6 KB)
+0026.196 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 3500 files added (on-disk size: 20091.6 KB)
+0026.245 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 3600 files added (on-disk size: 20091.6 KB)
+0026.289 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 3700 files added (on-disk size: 20091.6 KB)
+0026.328 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 3800 files added (on-disk size: 20091.6 KB)
+0026.367 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 3900 files added (on-disk size: 20091.6 KB)
+0026.371 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (23.7 MB, 13496 files batched, 1001 (3906) added so far); re-opening (prior size: 20091.6 KB)
+0030.422 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 4000 files added (on-disk size: 25924.2 KB)
+0030.455 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 4100 files added (on-disk size: 25924.2 KB)
+0030.506 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 4200 files added (on-disk size: 25924.2 KB)
+0030.553 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 4300 files added (on-disk size: 25924.2 KB)
+0030.608 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 4400 files added (on-disk size: 25924.2 KB)
+0030.691 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 4500 files added (on-disk size: 25924.2 KB)
+0030.736 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 4600 files added (on-disk size: 25924.2 KB)
+0030.773 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 4700 files added (on-disk size: 25924.2 KB)
+0030.813 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 4800 files added (on-disk size: 25924.2 KB)
+0030.849 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 4900 files added (on-disk size: 25924.2 KB)
+0030.853 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (24.1 MB, 13496 files batched, 1001 (4907) added so far); re-opening (prior size: 25924.2 KB)
+0035.469 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 5000 files added (on-disk size: 32264.5 KB)
+0035.504 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 5100 files added (on-disk size: 32264.5 KB)
+0035.541 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 5200 files added (on-disk size: 32264.5 KB)
+0035.576 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 5300 files added (on-disk size: 32264.5 KB)
+0035.612 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 5400 files added (on-disk size: 32264.5 KB)
+0035.650 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 5500 files added (on-disk size: 32264.5 KB)
+0035.688 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 5600 files added (on-disk size: 32264.5 KB)
+0035.721 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 5700 files added (on-disk size: 32264.5 KB)
+0035.753 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 5800 files added (on-disk size: 32264.5 KB)
+0035.785 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 5900 files added (on-disk size: 32264.5 KB)
+0035.789 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.2 MB, 13496 files batched, 1001 (5908) added so far); re-opening (prior size: 32264.5 KB)
+0039.703 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 6000 files added (on-disk size: 36844.7 KB)
+0039.739 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 6100 files added (on-disk size: 36844.7 KB)
+0039.776 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 6200 files added (on-disk size: 36844.7 KB)
+0039.817 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 6300 files added (on-disk size: 36844.7 KB)
+0039.851 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 6400 files added (on-disk size: 36844.7 KB)
+0039.884 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 6500 files added (on-disk size: 36844.7 KB)
+0039.917 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 6600 files added (on-disk size: 36844.7 KB)
+0039.951 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 6700 files added (on-disk size: 36844.7 KB)
+0039.985 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 6800 files added (on-disk size: 36844.7 KB)
+0040.019 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 6900 files added (on-disk size: 36844.7 KB)
+0040.023 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (23.4 MB, 13496 files batched, 1001 (6909) added so far); re-opening (prior size: 36844.7 KB)
+0047.248 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 7000 files added (on-disk size: 43300.7 KB)
+0047.296 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 7100 files added (on-disk size: 43300.7 KB)
+0047.341 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 7200 files added (on-disk size: 43300.7 KB)
+0047.378 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 7300 files added (on-disk size: 43300.7 KB)
+0047.420 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 7400 files added (on-disk size: 43300.7 KB)
+0047.461 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 7500 files added (on-disk size: 43300.7 KB)
+0047.497 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 7600 files added (on-disk size: 43300.7 KB)
+0047.532 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 7700 files added (on-disk size: 43300.7 KB)
+0047.567 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 7800 files added (on-disk size: 43300.7 KB)
+0047.602 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 7900 files added (on-disk size: 43300.7 KB)
+0047.607 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10.2 MB, 13496 files batched, 1001 (7910) added so far); re-opening (prior size: 43300.7 KB)
+0053.664 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 8000 files added (on-disk size: 46635.8 KB)
+0053.701 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 8100 files added (on-disk size: 46635.8 KB)
+0053.735 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 8200 files added (on-disk size: 46635.8 KB)
+0053.772 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 8300 files added (on-disk size: 46635.8 KB)
+0053.813 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 8400 files added (on-disk size: 46635.8 KB)
+0053.850 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 8500 files added (on-disk size: 46635.8 KB)
+0053.884 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 8600 files added (on-disk size: 46635.8 KB)
+0053.922 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 8700 files added (on-disk size: 46635.8 KB)
+0053.958 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 8800 files added (on-disk size: 46635.8 KB)
+0053.996 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 8900 files added (on-disk size: 46635.8 KB)
+0054.002 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (13.3 MB, 13496 files batched, 1001 (8911) added so far); re-opening (prior size: 46635.8 KB)
+0057.266 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 9000 files added (on-disk size: 50587.2 KB)
+0057.305 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 9100 files added (on-disk size: 50587.2 KB)
+0057.344 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 9200 files added (on-disk size: 50587.2 KB)
+0057.393 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 9300 files added (on-disk size: 50587.2 KB)
+0057.442 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 9400 files added (on-disk size: 50587.2 KB)
+0057.528 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 9500 files added (on-disk size: 50587.2 KB)
+0057.615 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 9600 files added (on-disk size: 50587.2 KB)
+0057.713 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 9700 files added (on-disk size: 50587.2 KB)
+0057.819 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 9800 files added (on-disk size: 50587.2 KB)
+0057.917 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 9900 files added (on-disk size: 50587.2 KB)
+0057.928 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (2.6 MB, 13496 files batched, 1001 (9912) added so far); re-opening (prior size: 50587.2 KB)
+0063.680 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 10000 files added (on-disk size: 51844.5 KB)
+0063.771 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 10100 files added (on-disk size: 51844.5 KB)
+0063.858 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 10200 files added (on-disk size: 51844.5 KB)
+0063.941 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 10300 files added (on-disk size: 51844.5 KB)
+0064.022 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 10400 files added (on-disk size: 51844.5 KB)
+0064.099 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 10500 files added (on-disk size: 51844.5 KB)
+0064.181 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 10600 files added (on-disk size: 51844.5 KB)
+0064.279 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 10700 files added (on-disk size: 51844.5 KB)
+0064.409 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 10800 files added (on-disk size: 51844.5 KB)
+0064.525 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 10900 files added (on-disk size: 51844.5 KB)
+0064.545 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6.4 MB, 13496 files batched, 1001 (10913) added so far); re-opening (prior size: 51844.5 KB)
+0067.935 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 11000 files added (on-disk size: 54043.3 KB)
+0068.059 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 11100 files added (on-disk size: 54043.3 KB)
+0068.166 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 11200 files added (on-disk size: 54043.3 KB)
+0068.263 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 11300 files added (on-disk size: 54043.3 KB)
+0068.345 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 11400 files added (on-disk size: 54043.3 KB)
+0068.483 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 11500 files added (on-disk size: 54043.3 KB)
+0068.613 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 11600 files added (on-disk size: 54043.3 KB)
+0068.730 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 11700 files added (on-disk size: 54043.3 KB)
+0068.810 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 11800 files added (on-disk size: 54043.3 KB)
+0068.902 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 11900 files added (on-disk size: 54043.3 KB)
+0068.917 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9.8 MB, 13496 files batched, 1001 (11914) added so far); re-opening (prior size: 54043.3 KB)
+0072.192 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 12000 files added (on-disk size: 57254.6 KB)
+0072.308 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 12100 files added (on-disk size: 57254.6 KB)
+0072.434 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 12200 files added (on-disk size: 57254.6 KB)
+0072.632 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 12300 files added (on-disk size: 57254.6 KB)
+0072.776 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 12400 files added (on-disk size: 57254.6 KB)
+0072.927 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 12500 files added (on-disk size: 57254.6 KB)
+0073.090 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 12600 files added (on-disk size: 57254.6 KB)
+0073.312 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 12700 files added (on-disk size: 57254.6 KB)
+0073.418 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 12800 files added (on-disk size: 57254.6 KB)
+0073.550 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 12900 files added (on-disk size: 57254.6 KB)
+0073.575 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14.2 MB, 13496 files batched, 1001 (12915) added so far); re-opening (prior size: 57254.6 KB)
+0080.769 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 13000 files added (on-disk size: 64193.5 KB)
+0081.006 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 13100 files added (on-disk size: 64193.5 KB)
+0081.244 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 13200 files added (on-disk size: 64193.5 KB)
+0081.481 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 13300 files added (on-disk size: 64193.5 KB)
+0081.975 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.tmp: 13400 files added (on-disk size: 64193.5 KB)
+0089.308 (0) Creating zip file manifest (backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.list-temp.tmp)
+0089.414 (0) Successfully created zip file manifest (size: 1239308)
+0090.768 (0) Created plugins zip (0) - 66429.2 KB in 90.6 s (732.8 KB/s) (sha1: 2cfe84f82c9e8cc637489ecf5033ff1c3e3ee9b9, sha256: cc9d72f41e56a6ee2c0edc72ed18e8cacb0d08505f49b31c4fc605a18445b203)
+0090.777 (0) Beginning creation of dump of themes (split every: 400 MB)
+0091.872 (0) Total entities for the zip file: 367 directories, 1061 files (0 skipped as non-modified), 35.3 MB
+0092.000 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0092.099 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0092.237 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0092.338 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0092.441 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0092.542 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0092.647 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0092.763 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0092.871 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0092.977 (0) Zip: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0092.980 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (35 MB, 1061 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0099.686 (0) Creating zip file manifest (backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-themes.zip.list-temp.tmp)
+0099.691 (0) Successfully created zip file manifest (size: 86333)
+0100.006 (0) Created themes zip (0) - 16017.5 KB in 9.2 s (1737 KB/s) (sha1: 819adbc880cf58c83753078ac28709e043affcd5, sha256: 2b50647d161ac7921f6cbe8dae43169f830517da38871107ee0d57373b939d6d)
+0100.015 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0100.018 (0) Looking for candidates to backup in: C:\xampp\htdocs\nafis/wp-content/uploads
+0100.021 (0) finding files: 2017: adding to list (1)
+0100.023 (0) finding files: 2018: adding to list (2)
+0100.025 (0) finding files: 2019: adding to list (3)
+0100.027 (0) finding files: 2020: adding to list (4)
+0100.029 (0) finding files: 2021: adding to list (5)
+0100.031 (0) finding files: 2022: adding to list (6)
+0100.034 (0) finding files: astra-sites: adding to list (7)
+0100.036 (0) finding files: cartflows-logs: adding to list (8)
+0100.039 (0) finding files: elementor: adding to list (9)
+0100.041 (0) finding files: essential-addons-elementor: adding to list (10)
+0100.043 (0) finding files: forminator: adding to list (11)
+0100.045 (0) finding files: slider2: adding to list (12)
+0100.048 (0) finding files: ultimatemember: adding to list (13)
+0100.050 (0) finding files: wc-logs: adding to list (14)
+0100.052 (0) finding files: woocommerce-placeholder.png: adding to list (15)
+0100.055 (0) finding files: woocommerce_uploads: adding to list (16)
+0100.057 (0) finding files: wpforms: adding to list (17)
+0100.059 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0100.177 (0) Total entities for the zip file: 34 directories, 99 files (0 skipped as non-modified), 14.3 MB
+0101.252 (0) Creating zip file manifest (backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-uploads.zip.list-temp.tmp)
+0101.254 (0) Successfully created zip file manifest (size: 4997)
+0101.414 (0) Created uploads zip (0) - 7771.7 KB in 1.3 s (5768.2 KB/s) (sha1: 35f0f6a9e79d50b092b7f010bfd3f32685079854, sha256: fd795ce7a205f39cb34d876346ea7a7716de8a37d057f59ddc359eeefc34b854)
+0101.423 (0) Beginning backup of other directories found in the content directory (index: 0)
+0101.425 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0101.428 (0) Looking for candidates to backup in: C:\xampp\htdocs\nafis/wp-content
+0101.430 (0) finding files: index.php: adding to list (1)
+0101.432 (0) finding files: languages: adding to list (2)
+0101.434 (0) finding files: plugins: skipping: this is the plugins directory
+0101.436 (0) finding files: themes: skipping: this is the themes directory
+0101.439 (0) finding files: updraft: skipping: this is the updraft directory
+0101.441 (0) finding files: upgrade: skipping: excluded by options
+0101.444 (0) finding files: uploads: skipping: this is the uploads directory
+0101.457 (0) Total entities for the zip file: 2 directories, 1 files (0 skipped as non-modified), 0 MB
+0101.473 (0) Creating zip file manifest (backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-others.zip.list-temp.tmp)
+0101.477 (0) Successfully created zip file manifest (size: 43)
+0101.487 (0) Created others zip (0) - 0.3 KB in 0 s (9.5 KB/s) (sha1: aaadd6323f68dc00453d1ce059574174309cf828, sha256: d08160cda7dc13aa6a1ef47394e4a2af4a3bc393a6bcde170880e5b2aaf2696b)
+0101.501 (0) Saving backup status to database (elements: 8)
+0101.507 (0) Beginning creation of database dump (WordPress DB)
+0101.510 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0102.866 (0) Table wp_options: Total expected rows (via COUNT): 679
+0103.145 (0) Table wp_options: Rows added in this batch (next record: 4390): 675 (uncompressed bytes in this segment=7032303) in 1.54 seconds
+0103.159 (0) Table wp_options: finishing file(s) (2, 592.4 KB)
+0103.178 (0) Table wp_users: Total expected rows (via COUNT): 1
+0103.181 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0103.188 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1380) in 0.02 seconds
+0103.200 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0103.227 (0) Table wp_usermeta: Total expected rows (via COUNT): 34
+0103.231 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0103.238 (0) Table wp_usermeta: Rows added in this batch (next record: 85): 34 (uncompressed bytes in this segment=4187) in 0.03 seconds
+0103.251 (0) Table wp_usermeta: finishing file(s) (2, 1.8 KB)
+0103.270 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 181
+0103.271 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0103.276 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 190): 181 (uncompressed bytes in this segment=67507) in 0.02 seconds
+0103.286 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 5.3 KB)
+0103.305 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0103.310 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=626) in 0.01 seconds
+0103.322 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0103.348 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 6
+0103.350 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0103.355 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=841) in 0.02 seconds
+0103.369 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0103.391 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 529
+0103.414 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 531): 529 (uncompressed bytes in this segment=46857) in 0.03 seconds
+0103.425 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 4.6 KB)
+0103.449 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0103.454 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=696) in 0.01 seconds
+0103.466 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0103.492 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0103.494 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0103.500 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2180) in 0.02 seconds
+0103.513 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0103.565 (0) Table wp_links: Total expected rows (via COUNT): 0
+0103.572 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1306) in 0.01 seconds
+0103.584 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0104.901 (0) Table wp_postmeta: Total expected rows (approximate): 2110
+0105.325 (0) Table wp_postmeta: Rows added in this batch (next record: 6673): 2289 (uncompressed bytes in this segment=4726581) in 1.73 seconds
+0105.339 (0) Table wp_postmeta: finishing file(s) (2, 413.6 KB)
+0105.477 (0) Table wp_posts: Total expected rows (via COUNT): 288
+0105.479 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0105.508 (0) Table wp_posts: Rows added in this batch (next record: 4206): 288 (uncompressed bytes in this segment=475281) in 0.16 seconds
+0105.521 (0) Table wp_posts: finishing file(s) (2, 36 KB)
+0105.535 (0) Table wp_term_relationships: Total expected rows (approximate): 77
+0105.544 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 77 (uncompressed bytes in this segment=1826) in 0.01 seconds
+0105.557 (0) Table wp_term_relationships: finishing file(s) (2, 0.6 KB)
+0105.583 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 46
+0105.585 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0105.592 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 110): 46 (uncompressed bytes in this segment=4323) in 0.02 seconds
+0105.608 (0) Table wp_term_taxonomy: finishing file(s) (2, 1.4 KB)
+0105.634 (0) Table wp_termmeta: Total expected rows (via COUNT): 60
+0105.637 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0105.645 (0) Table wp_termmeta: Rows added in this batch (next record: 162): 60 (uncompressed bytes in this segment=3061) in 0.03 seconds
+0105.657 (0) Table wp_termmeta: finishing file(s) (2, 0.8 KB)
+0105.678 (0) Table wp_terms: Total expected rows (via COUNT): 46
+0105.680 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0105.687 (0) Table wp_terms: Rows added in this batch (next record: 110): 46 (uncompressed bytes in this segment=2405) in 0.02 seconds
+0105.699 (0) Table wp_terms: finishing file(s) (2, 1 KB)
+0105.762 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 11
+0105.768 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 11 (uncompressed bytes in this segment=716) in 0.01 seconds
+0105.781 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0105.821 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 16
+0105.822 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0105.825 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: 4146): 16 (uncompressed bytes in this segment=2854) in 0.01 seconds
+0105.833 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 0.8 KB)
+0105.866 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0105.872 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=663) in 0.01 seconds
+0105.884 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0105.907 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0105.910 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0105.917 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=812) in 0.02 seconds
+0105.928 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0105.978 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0105.984 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=784) in 0.01 seconds
+0106.000 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0106.047 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0106.050 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=811) in 0.01 seconds
+0106.062 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0106.077 (0) Table wp_cartflows_ca_cart_abandonment: Total expected rows (approximate): 1
+0106.090 (0) Table wp_cartflows_ca_cart_abandonment: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=2994) in 0.02 seconds
+0106.102 (0) Table wp_cartflows_ca_cart_abandonment: finishing file(s) (2, 1.1 KB)
+0106.129 (0) Table wp_cartflows_ca_email_history: Total expected rows (via COUNT): 0
+0106.132 (0) Table wp_cartflows_ca_email_history: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1156) in 0.02 seconds
+0106.143 (0) Table wp_cartflows_ca_email_history: finishing file(s) (2, 0.5 KB)
+0106.167 (0) Table wp_cartflows_ca_email_templates: Total expected rows (via COUNT): 3
+0106.170 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0106.176 (0) Table wp_cartflows_ca_email_templates: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=2738) in 0.02 seconds
+0106.189 (0) Table wp_cartflows_ca_email_templates: finishing file(s) (2, 1.2 KB)
+0106.232 (0) Table wp_cartflows_ca_email_templates_meta: Total expected rows (via COUNT): 18
+0106.234 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0106.237 (0) Table wp_cartflows_ca_email_templates_meta: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=1674) in 0.01 seconds
+0106.251 (0) Table wp_cartflows_ca_email_templates_meta: finishing file(s) (2, 0.6 KB)
+0106.306 (0) Table wp_cli_cookie_scan: Total expected rows (via COUNT): 0
+0106.317 (0) Table wp_cli_cookie_scan: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=753) in 0.02 seconds
+0106.329 (0) Table wp_cli_cookie_scan: finishing file(s) (2, 0.4 KB)
+0106.389 (0) Table wp_cli_cookie_scan_categories: Total expected rows (via COUNT): 0
+0106.391 (0) Table wp_cli_cookie_scan_categories: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=759) in 0.01 seconds
+0106.403 (0) Table wp_cli_cookie_scan_categories: finishing file(s) (2, 0.4 KB)
+0106.436 (0) Table wp_cli_cookie_scan_cookies: Total expected rows (via COUNT): 0
+0106.440 (0) Table wp_cli_cookie_scan_cookies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1386) in 0.01 seconds
+0106.454 (0) Table wp_cli_cookie_scan_cookies: finishing file(s) (2, 0.5 KB)
+0106.490 (0) Table wp_cli_cookie_scan_url: Total expected rows (via COUNT): 0
+0106.493 (0) Table wp_cli_cookie_scan_url: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=687) in 0.01 seconds
+0106.505 (0) Table wp_cli_cookie_scan_url: finishing file(s) (2, 0.3 KB)
+0106.531 (0) Table wp_cli_scripts: Total expected rows (via COUNT): 4
+0106.533 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0106.539 (0) Table wp_cli_scripts: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1433) in 0.02 seconds
+0106.554 (0) Table wp_cli_scripts: finishing file(s) (2, 0.6 KB)
+0106.581 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0106.584 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=542) in 0.01 seconds
+0106.592 (0) Table wp_e_events: finishing file(s) (2, 0.4 KB)
+0106.639 (0) Table wp_frmt_form_entry: Total expected rows (via COUNT): 8
+0106.641 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0106.645 (0) Table wp_frmt_form_entry: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=1388) in 0.01 seconds
+0106.655 (0) Table wp_frmt_form_entry: finishing file(s) (2, 0.6 KB)
+0106.704 (0) Table wp_frmt_form_entry_meta: Total expected rows (via COUNT): 16
+0106.705 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0106.708 (0) Table wp_frmt_form_entry_meta: Rows added in this batch (next record: 16): 16 (uncompressed bytes in this segment=2258) in 0.01 seconds
+0106.722 (0) Table wp_frmt_form_entry_meta: finishing file(s) (2, 0.7 KB)
+0106.751 (0) Table wp_frmt_form_views: Total expected rows (via COUNT): 4
+0106.753 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0106.761 (0) Table wp_frmt_form_views: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1298) in 0.02 seconds
+0106.773 (0) Table wp_frmt_form_views: finishing file(s) (2, 0.6 KB)
+0106.796 (0) Table wp_nextend2_image_storage: Total expected rows (via COUNT): 1
+0106.797 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0106.800 (0) Table wp_nextend2_image_storage: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=940) in 0.01 seconds
+0106.811 (0) Table wp_nextend2_image_storage: finishing file(s) (2, 0.5 KB)
+0106.834 (0) Table wp_nextend2_section_storage: Total expected rows (via COUNT): 9
+0106.836 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0106.856 (0) Table wp_nextend2_section_storage: Rows added in this batch (next record: 10469): 9 (uncompressed bytes in this segment=89630) in 0.03 seconds
+0106.869 (0) Table wp_nextend2_section_storage: finishing file(s) (2, 14.9 KB)
+0106.893 (0) Table wp_nextend2_smartslider3_generators: Total expected rows (via COUNT): 0
+0106.899 (0) Table wp_nextend2_smartslider3_generators: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=718) in 0.01 seconds
+0106.910 (0) Table wp_nextend2_smartslider3_generators: finishing file(s) (2, 0.4 KB)
+0106.931 (0) Table wp_nextend2_smartslider3_sliders: Total expected rows (via COUNT): 2
+0106.933 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0106.945 (0) Table wp_nextend2_smartslider3_sliders: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=30023) in 0.02 seconds
+0106.957 (0) Table wp_nextend2_smartslider3_sliders: finishing file(s) (2, 4.3 KB)
+0106.973 (0) Table wp_nextend2_smartslider3_sliders_xref: Total expected rows (approximate): 1
+0106.980 (0) Table wp_nextend2_smartslider3_sliders_xref: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=730) in 0.01 seconds
+0106.991 (0) Table wp_nextend2_smartslider3_sliders_xref: finishing file(s) (2, 0.4 KB)
+0107.019 (0) Table wp_nextend2_smartslider3_slides: Total expected rows (via COUNT): 6
+0107.021 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0107.028 (0) Table wp_nextend2_smartslider3_slides: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=73588) in 0.03 seconds
+0107.043 (0) Table wp_nextend2_smartslider3_slides: finishing file(s) (2, 4.9 KB)
+0107.096 (0) Table wp_um_metadata: Total expected rows (via COUNT): 0
+0107.101 (0) Table wp_um_metadata: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=731) in 0.01 seconds
+0107.116 (0) Table wp_um_metadata: finishing file(s) (2, 0.4 KB)
+0107.137 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 61
+0107.138 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0107.145 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 1109): 61 (uncompressed bytes in this segment=10683) in 0.02 seconds
+0107.160 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 2.4 KB)
+0107.192 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 53
+0107.193 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0107.200 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 53): 53 (uncompressed bytes in this segment=24701) in 0.03 seconds
+0107.214 (0) Table wp_wc_admin_notes: finishing file(s) (2, 6.3 KB)
+0107.241 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 0
+0107.246 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.01 seconds
+0107.256 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0107.281 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+0107.283 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=926) in 0.01 seconds
+0107.303 (0) Table wp_wc_download_log: finishing file(s) (2, 0.5 KB)
+0107.340 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0107.342 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=715) in 0.00 seconds
+0107.348 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0107.363 (0) Table wp_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0107.364 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1215) in 0.00 seconds
+0107.370 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0107.386 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 0
+0107.389 (0) Table wp_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1110) in 0.01 seconds
+0107.400 (0) Table wp_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0107.429 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0107.432 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=793) in 0.01 seconds
+0107.444 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0107.486 (0) Table wp_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0107.489 (0) Table wp_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=862) in 0.01 seconds
+0107.500 (0) Table wp_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0107.528 (0) Table wp_wc_product_download_directories: Total expected rows (via COUNT): 2
+0107.530 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0107.535 (0) Table wp_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=908) in 0.01 seconds
+0107.548 (0) Table wp_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0107.572 (0) Table wp_wc_rate_limits: Total expected rows (via COUNT): 0
+0107.578 (0) Table wp_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=698) in 0.01 seconds
+0107.591 (0) Table wp_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0107.616 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 0
+0107.619 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1226) in 0.01 seconds
+0107.631 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0107.658 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0107.661 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1059) in 0.01 seconds
+0107.675 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.5 KB)
+0107.707 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 2
+0107.710 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0107.715 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1133) in 0.01 seconds
+0107.726 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.5 KB)
+0107.762 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0107.767 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1534) in 0.01 seconds
+0107.779 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0107.801 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0107.804 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=735) in 0.01 seconds
+0107.818 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0107.843 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 0
+0107.845 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=739) in 0.01 seconds
+0107.852 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0107.863 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0107.864 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=837) in 0.00 seconds
+0107.870 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0107.888 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 14
+0107.889 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0107.892 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 88): 14 (uncompressed bytes in this segment=16098) in 0.02 seconds
+0107.901 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 1.6 KB)
+0107.917 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 6
+0107.919 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0107.926 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=1115) in 0.02 seconds
+0107.937 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.5 KB)
+0107.956 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0107.961 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=773) in 0.01 seconds
+0107.971 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0107.993 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 1
+0107.995 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0107.999 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=772) in 0.02 seconds
+0108.011 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0108.035 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0108.040 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=848) in 0.01 seconds
+0108.051 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0108.072 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0108.075 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1297) in 0.01 seconds
+0108.086 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0108.129 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 3
+0108.131 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0108.135 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=900) in 0.02 seconds
+0108.148 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0108.149 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\nafis/wp-content/updraft/backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db.gz (line 1912, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\backup.php)
+0108.153 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_options.table.tmpr4391.gz (1/67/fopen): adding to final database dump
+0108.184 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_options.table.gz (2/67/fopen): adding to final database dump
+0108.186 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_users.table.tmpr2.gz (3/67/fopen): adding to final database dump
+0108.188 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_users.table.gz (4/67/fopen): adding to final database dump
+0108.190 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_usermeta.table.tmpr86.gz (5/67/fopen): adding to final database dump
+0108.192 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_usermeta.table.gz (6/67/fopen): adding to final database dump
+0108.194 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_actionscheduler_actions.table.tmpr191.gz (7/67/fopen): adding to final database dump
+0108.196 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_actionscheduler_actions.table.gz (8/67/fopen): adding to final database dump
+0108.198 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/67/fopen): adding to final database dump
+0108.200 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_actionscheduler_claims.table.gz (10/67/fopen): adding to final database dump
+0108.202 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_actionscheduler_groups.table.tmpr7.gz (11/67/fopen): adding to final database dump
+0108.203 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_actionscheduler_groups.table.gz (12/67/fopen): adding to final database dump
+0108.205 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_actionscheduler_logs.table.tmpr532.gz (13/67/fopen): adding to final database dump
+0108.206 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_actionscheduler_logs.table.gz (14/67/fopen): adding to final database dump
+0108.208 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_commentmeta.table.tmpr0.gz (15/67/fopen): adding to final database dump
+0108.210 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_commentmeta.table.gz (16/67/fopen): adding to final database dump
+0108.211 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_comments.table.tmpr2.gz (17/67/fopen): adding to final database dump
+0108.213 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_comments.table.gz (18/67/fopen): adding to final database dump
+0108.215 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_links.table.tmpr0.gz (19/67/fopen): adding to final database dump
+0108.217 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_links.table.gz (20/67/fopen): adding to final database dump
+0108.219 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_postmeta.table.tmpr6674.gz (21/67/fopen): adding to final database dump
+0108.247 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_postmeta.table.gz (22/67/fopen): adding to final database dump
+0108.249 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_posts.table.tmpr4207.gz (23/67/fopen): adding to final database dump
+0108.253 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_posts.table.gz (24/67/fopen): adding to final database dump
+0108.255 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_term_relationships.table.tmpr100001.gz (25/67/fopen): adding to final database dump
+0108.257 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_term_relationships.table.gz (26/67/fopen): adding to final database dump
+0108.259 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_term_taxonomy.table.tmpr111.gz (27/67/fopen): adding to final database dump
+0108.261 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_term_taxonomy.table.gz (28/67/fopen): adding to final database dump
+0108.263 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_termmeta.table.tmpr163.gz (29/67/fopen): adding to final database dump
+0108.264 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_termmeta.table.gz (30/67/fopen): adding to final database dump
+0108.265 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_terms.table.tmpr111.gz (31/67/fopen): adding to final database dump
+0108.266 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_terms.table.gz (32/67/fopen): adding to final database dump
+0108.267 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_category_lookup.table.tmpr1001.gz (33/67/fopen): adding to final database dump
+0108.268 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_category_lookup.table.gz (34/67/fopen): adding to final database dump
+0108.269 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_product_meta_lookup.table.tmpr4147.gz (35/67/fopen): adding to final database dump
+0108.270 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_product_meta_lookup.table.gz (36/67/fopen): adding to final database dump
+0108.272 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_reserved_stock.table.tmpr1.gz (37/67/fopen): adding to final database dump
+0108.273 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_reserved_stock.table.gz (38/67/fopen): adding to final database dump
+0108.274 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (39/67/fopen): adding to final database dump
+0108.275 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_tax_rate_classes.table.gz (40/67/fopen): adding to final database dump
+0108.276 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_woocommerce_order_itemmeta.table.tmpr0.gz (41/67/fopen): adding to final database dump
+0108.277 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_woocommerce_order_itemmeta.table.gz (42/67/fopen): adding to final database dump
+0108.278 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/67/fopen): adding to final database dump
+0108.280 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_woocommerce_payment_tokenmeta.table.gz (44/67/fopen): adding to final database dump
+0108.281 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_cartflows_ca_cart_abandonment.table.tmpr1001.gz (45/67/fopen): adding to final database dump
+0108.282 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_cartflows_ca_cart_abandonment.table.gz (46/67/fopen): adding to final database dump
+0108.283 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_cartflows_ca_email_history.table.tmpr0.gz (47/67/fopen): adding to final database dump
+0108.285 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_cartflows_ca_email_history.table.gz (48/67/fopen): adding to final database dump
+0108.286 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_cartflows_ca_email_templates.table.tmpr4.gz (49/67/fopen): adding to final database dump
+0108.287 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_cartflows_ca_email_templates.table.gz (50/67/fopen): adding to final database dump
+0108.289 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_cartflows_ca_email_templates_meta.table.tmpr19.gz (51/67/fopen): adding to final database dump
+0108.290 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_cartflows_ca_email_templates_meta.table.gz (52/67/fopen): adding to final database dump
+0108.291 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_cli_cookie_scan.table.tmpr0.gz (53/67/fopen): adding to final database dump
+0108.292 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_cli_cookie_scan.table.gz (54/67/fopen): adding to final database dump
+0108.293 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_cli_cookie_scan_categories.table.tmpr0.gz (55/67/fopen): adding to final database dump
+0108.294 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_cli_cookie_scan_categories.table.gz (56/67/fopen): adding to final database dump
+0108.296 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_cli_cookie_scan_cookies.table.tmpr0.gz (57/67/fopen): adding to final database dump
+0108.297 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_cli_cookie_scan_cookies.table.gz (58/67/fopen): adding to final database dump
+0108.298 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_cli_cookie_scan_url.table.tmpr0.gz (59/67/fopen): adding to final database dump
+0108.300 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_cli_cookie_scan_url.table.gz (60/67/fopen): adding to final database dump
+0108.301 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_cli_scripts.table.tmpr5.gz (61/67/fopen): adding to final database dump
+0108.302 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_cli_scripts.table.gz (62/67/fopen): adding to final database dump
+0108.303 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_e_events.table.tmpr0.gz (63/67/fopen): adding to final database dump
+0108.308 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_e_events.table.gz (64/67/fopen): adding to final database dump
+0108.310 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_frmt_form_entry.table.tmpr9.gz (65/67/fopen): adding to final database dump
+0108.313 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_frmt_form_entry.table.gz (66/67/fopen): adding to final database dump
+0108.315 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_frmt_form_entry_meta.table.tmpr17.gz (67/67/fopen): adding to final database dump
+0108.317 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_frmt_form_entry_meta.table.gz (68/67/fopen): adding to final database dump
+0108.319 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_frmt_form_views.table.tmpr5.gz (69/67/fopen): adding to final database dump
+0108.324 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_frmt_form_views.table.gz (70/67/fopen): adding to final database dump
+0108.326 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_nextend2_image_storage.table.tmpr2.gz (71/67/fopen): adding to final database dump
+0108.327 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_nextend2_image_storage.table.gz (72/67/fopen): adding to final database dump
+0108.328 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_nextend2_section_storage.table.tmpr10470.gz (73/67/fopen): adding to final database dump
+0108.330 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_nextend2_section_storage.table.gz (74/67/fopen): adding to final database dump
+0108.332 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_nextend2_smartslider3_generators.table.tmpr0.gz (75/67/fopen): adding to final database dump
+0108.334 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_nextend2_smartslider3_generators.table.gz (76/67/fopen): adding to final database dump
+0108.335 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_nextend2_smartslider3_sliders.table.tmpr3.gz (77/67/fopen): adding to final database dump
+0108.337 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_nextend2_smartslider3_sliders.table.gz (78/67/fopen): adding to final database dump
+0108.338 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_nextend2_smartslider3_sliders_xref.table.tmpr1001.gz (79/67/fopen): adding to final database dump
+0108.340 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_nextend2_smartslider3_sliders_xref.table.gz (80/67/fopen): adding to final database dump
+0108.342 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_nextend2_smartslider3_slides.table.tmpr7.gz (81/67/fopen): adding to final database dump
+0108.344 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_nextend2_smartslider3_slides.table.gz (82/67/fopen): adding to final database dump
+0108.346 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_um_metadata.table.tmpr0.gz (83/67/fopen): adding to final database dump
+0108.348 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_um_metadata.table.gz (84/67/fopen): adding to final database dump
+0108.349 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_admin_note_actions.table.tmpr1110.gz (85/67/fopen): adding to final database dump
+0108.352 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_admin_note_actions.table.gz (86/67/fopen): adding to final database dump
+0108.354 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_admin_notes.table.tmpr54.gz (87/67/fopen): adding to final database dump
+0108.356 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_admin_notes.table.gz (88/67/fopen): adding to final database dump
+0108.359 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_customer_lookup.table.tmpr0.gz (89/67/fopen): adding to final database dump
+0108.361 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_customer_lookup.table.gz (90/67/fopen): adding to final database dump
+0108.362 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_download_log.table.tmpr0.gz (91/67/fopen): adding to final database dump
+0108.364 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_download_log.table.gz (92/67/fopen): adding to final database dump
+0108.366 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (93/67/fopen): adding to final database dump
+0108.369 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_order_coupon_lookup.table.gz (94/67/fopen): adding to final database dump
+0108.371 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_order_product_lookup.table.tmpr0.gz (95/67/fopen): adding to final database dump
+0108.373 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_order_product_lookup.table.gz (96/67/fopen): adding to final database dump
+0108.374 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_order_stats.table.tmpr0.gz (97/67/fopen): adding to final database dump
+0108.376 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_order_stats.table.gz (98/67/fopen): adding to final database dump
+0108.378 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (99/67/fopen): adding to final database dump
+0108.383 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_order_tax_lookup.table.gz (100/67/fopen): adding to final database dump
+0108.384 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_product_attributes_lookup.table.tmpr1.gz (101/67/fopen): adding to final database dump
+0108.387 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_product_attributes_lookup.table.gz (102/67/fopen): adding to final database dump
+0108.389 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_product_download_directories.table.tmpr3.gz (103/67/fopen): adding to final database dump
+0108.391 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_product_download_directories.table.gz (104/67/fopen): adding to final database dump
+0108.393 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_rate_limits.table.tmpr0.gz (105/67/fopen): adding to final database dump
+0108.395 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_rate_limits.table.gz (106/67/fopen): adding to final database dump
+0108.396 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_webhooks.table.tmpr0.gz (107/67/fopen): adding to final database dump
+0108.399 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wc_webhooks.table.gz (108/67/fopen): adding to final database dump
+0108.400 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (109/67/fopen): adding to final database dump
+0108.403 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_woocommerce_api_keys.table.gz (110/67/fopen): adding to final database dump
+0108.405 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr3.gz (111/67/fopen): adding to final database dump
+0108.407 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_woocommerce_attribute_taxonomies.table.gz (112/67/fopen): adding to final database dump
+0108.409 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (113/67/fopen): adding to final database dump
+0108.411 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (114/67/fopen): adding to final database dump
+0108.413 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_woocommerce_log.table.tmpr0.gz (115/67/fopen): adding to final database dump
+0108.415 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_woocommerce_log.table.gz (116/67/fopen): adding to final database dump
+0108.417 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_woocommerce_order_items.table.tmpr0.gz (117/67/fopen): adding to final database dump
+0108.419 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_woocommerce_order_items.table.gz (118/67/fopen): adding to final database dump
+0108.420 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (119/67/fopen): adding to final database dump
+0108.422 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_woocommerce_payment_tokens.table.gz (120/67/fopen): adding to final database dump
+0108.424 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_woocommerce_sessions.table.tmpr89.gz (121/67/fopen): adding to final database dump
+0108.426 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_woocommerce_sessions.table.gz (122/67/fopen): adding to final database dump
+0108.428 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr7.gz (123/67/fopen): adding to final database dump
+0108.430 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_woocommerce_shipping_zone_locations.table.gz (124/67/fopen): adding to final database dump
+0108.432 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr0.gz (125/67/fopen): adding to final database dump
+0108.434 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_woocommerce_shipping_zone_methods.table.gz (126/67/fopen): adding to final database dump
+0108.437 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_woocommerce_shipping_zones.table.tmpr2.gz (127/67/fopen): adding to final database dump
+0108.440 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_woocommerce_shipping_zones.table.gz (128/67/fopen): adding to final database dump
+0108.442 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (129/67/fopen): adding to final database dump
+0108.445 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_woocommerce_tax_rate_locations.table.gz (130/67/fopen): adding to final database dump
+0108.447 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_woocommerce_tax_rates.table.tmpr0.gz (131/67/fopen): adding to final database dump
+0108.450 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_woocommerce_tax_rates.table.gz (132/67/fopen): adding to final database dump
+0108.452 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wpforms_tasks_meta.table.tmpr4.gz (133/67/fopen): adding to final database dump
+0108.455 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db-table-wp_wpforms_tasks_meta.table.gz (134/67/fopen): adding to final database dump
+0108.477 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db.gz: finished writing out complete database file (1116 KB)
+0108.535 (0) Total database tables backed up: 67 (backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db.gz, size: 1142866, sha1: a5253240b5eb10f01883cd6488c91e0408d85d4f, sha256: f39ed9e9207a3ecdacbe0fe43c7e699e5b3958d330ddefc719ec21c53f354464)
+0108.544 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2843, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\backup.php)
+0108.551 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0108.554 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0108.557 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0108.561 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-others.zip: others: This file has not yet been successfully uploaded: will queue
+0108.563 (0) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db.gz: db: This file has not yet been successfully uploaded: will queue
+0108.565 (0) Saving backup history. Total backup size: 89.2 MB
+0108.572 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0108.580 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0108.583 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-1dcbd2a0e2f544fc797e43a0cf9fbd40)
+0108.587 (0) PHP event: code E_DEPRECATED: http_build_query(): Passing null to parameter #2 ($numeric_prefix) of type string is deprecated (line 345, C:\xampp\htdocs\nafis\wp-includes\Requests\Transport\cURL.php)
+0108.591 (0) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (cURL error 6: Could not resolve host: auth.updraftplus.com) (http_request_failed)
+0108.594 (0) An error condition has occurred for the first time during this job
+0108.598 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0108.601 (0) Number of backup sets in history: 3; groups (db): 1
+0108.603 (0) Examining (for databases) backup set with group_id=0, nonce=e769b3c3c682, datestamp=1662450281 (Sep 06 2022 07:44:41)
+0108.606 (0) This backup set is the backup set just made, so will not be deleted.
+0108.606 (0) Examining (for databases) backup set with group_id=0, nonce=b7aca09b0d48, datestamp=1662368229 (Sep 05 2022 08:57:09)
+0108.606 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0108.608 (0) Examining (for databases) backup set with group_id=0, nonce=a5286de02fb0, datestamp=1662036884 (Sep 01 2022 12:54:44)
+0108.608 (0) 1662036884: db: this set includes a database (backup_2022-09-01-1254_Simply_Natural_a5286de02fb0-db.gz); db count is now 2
+0108.608 (0) 1662036884: db: over retain limit (2); will delete this database
+0108.608 (0) Delete file: backup_2022-09-01-1254_Simply_Natural_a5286de02fb0-db.gz, service=googledrive
+0108.611 (0) PHP event: code E_DEPRECATED: http_build_query(): Passing null to parameter #2 ($numeric_prefix) of type string is deprecated (line 345, C:\xampp\htdocs\nafis\wp-includes\Requests\Transport\cURL.php)
+0108.615 (0) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (cURL error 6: Could not resolve host: auth.updraftplus.com) (http_request_failed)
+0108.616 (0) Google Drive: delete: failed due to storage error: http_request_failed (cURL error 6: Could not resolve host: auth.updraftplus.com)
+0108.621 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0108.622 (0) Number of backup sets in history: 3; groups (files): 1
+0108.624 (0) Examining (for files) backup set with nonce=e769b3c3c682, datestamp=1662450281 (Sep 06 2022 07:44:41)
+0108.624 (0) This backup set is the backup set just made, so will not be deleted.
+0108.626 (0) This backup set is the backup set just made, so will not be deleted.
+0108.626 (0) This backup set is the backup set just made, so will not be deleted.
+0108.626 (0) This backup set is the backup set just made, so will not be deleted.
+0108.627 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0108.629 (0) Examining (for files) backup set with nonce=b7aca09b0d48, datestamp=1662368229 (Sep 05 2022 08:57:09)
+0108.629 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0108.629 (0) Examining (for files) backup set with nonce=a5286de02fb0, datestamp=1662036884 (Sep 01 2022 12:54:44)
+0108.629 (0) plugins: over retain limit (2); will delete this file entity
+0108.629 (0) themes: over retain limit (2); will delete this file entity
+0108.629 (0) uploads: over retain limit (2); will delete this file entity
+0108.629 (0) others: over retain limit (2); will delete this file entity
+0108.629 (0) Delete file: backup_2022-09-01-1254_Simply_Natural_a5286de02fb0-plugins.zip, service=googledrive
+0108.632 (0) Delete file: backup_2022-09-01-1254_Simply_Natural_a5286de02fb0-themes.zip, service=googledrive
+0108.634 (0) Delete file: backup_2022-09-01-1254_Simply_Natural_a5286de02fb0-uploads.zip, service=googledrive
+0108.636 (0) Delete file: backup_2022-09-01-1254_Simply_Natural_a5286de02fb0-others.zip, service=googledrive
+0108.638 (0) PHP event: code E_DEPRECATED: http_build_query(): Passing null to parameter #2 ($numeric_prefix) of type string is deprecated (line 345, C:\xampp\htdocs\nafis\wp-includes\Requests\Transport\cURL.php)
+0108.642 (0) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (cURL error 6: Could not resolve host: auth.updraftplus.com) (http_request_failed)
+0108.644 (0) Google Drive: delete: failed due to storage error: http_request_failed (cURL error 6: Could not resolve host: auth.updraftplus.com)
+0108.647 (0) This backup set is now empty; will remove from history
+0108.649 (0) Deleting log file (log.a5286de02fb0.txt)
+0108.651 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0108.658 (0) Resume backup (e769b3c3c682, 0): finish run
+0108.661 (0) Decremented the semaphore (fd) by 1
+0108.663 (0) Semaphore (fd) unlocked
+0108.664 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0108.671 (0) Rescheduling resumption 1: moving to 60 seconds from now (1662450449)
+0108.673 (0) No email will/can be sent - the user has not configured an email address.
+0108.679 (0) The backup has not finished; a resumption is scheduled
+0185.716 (1) Opened log file at time: Tue, 06 Sep 2022 07:47:46 +0000 on http://localhost/nafis
+0185.718 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.19 WP: 6.0.2 PHP: 8.1.6 (apache2handler, Windows NT DESKTOP-CR7R9NH 10.0 build 22000 (Windows 11) AMD64) MySQL: 10.4.24-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.6 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 116M | 118M) multisite: N openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0185.720 (1) Free space on disk containing Updraft's temporary directory: 73352.8 MB
+0185.722 (1) Requesting backup semaphore lock (e769b3c3c682)
+0185.726 (1) [Debug] Lock option (updraft_lock_e769b3c3c682, wp_options) was created in the database
+0185.727 (1) [Info] Lock (updraft_lock_e769b3c3c682, wp_options) acquired after initialising the database
+0185.731 (1) Backup run: resumption=1, nonce=e769b3c3c682, file_nonce=e769b3c3c682 begun at=1662450281 (185s ago), job type=backup, previous check-in=108.64s
+0185.735 (1) Scheduling a resumption (2) after 583 seconds (1662451050) in case this run gets aborted
+0185.758 (1) Checking if we have a zip executable available
+0185.760 (1) Creation of backups of directories: already finished
+0185.763 (1) Saving backup status to database (elements: 8)
+0185.775 (1) Database dump (WordPress DB): Creation was completed already
+0185.777 (1) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0185.782 (1) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2843, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\backup.php)
+0185.787 (1) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0185.789 (1) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0185.791 (1) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0185.793 (1) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-others.zip: others: This file has not yet been successfully uploaded: will queue
+0185.795 (1) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db.gz: db: This file has not yet been successfully uploaded: will queue
+0185.797 (1) Saving backup history. Total backup size: 89.2 MB
+0185.801 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+0185.805 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0185.807 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-1dcbd2a0e2f544fc797e43a0cf9fbd40)
+0185.811 (1) PHP event: code E_DEPRECATED: Return type of Requests_Cookie_Jar::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 63, C:\xampp\htdocs\nafis\wp-includes\Requests\Cookie\Jar.php)
+0185.812 (1) PHP event: code E_DEPRECATED: Return type of Requests_Cookie_Jar::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 73, C:\xampp\htdocs\nafis\wp-includes\Requests\Cookie\Jar.php)
+0185.814 (1) PHP event: code E_DEPRECATED: Return type of Requests_Cookie_Jar::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 89, C:\xampp\htdocs\nafis\wp-includes\Requests\Cookie\Jar.php)
+0185.816 (1) PHP event: code E_DEPRECATED: Return type of Requests_Cookie_Jar::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 102, C:\xampp\htdocs\nafis\wp-includes\Requests\Cookie\Jar.php)
+0185.817 (1) PHP event: code E_DEPRECATED: Return type of Requests_Cookie_Jar::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 111, C:\xampp\htdocs\nafis\wp-includes\Requests\Cookie\Jar.php)
+0185.825 (1) PHP event: code E_DEPRECATED: http_build_query(): Passing null to parameter #2 ($numeric_prefix) of type string is deprecated (line 345, C:\xampp\htdocs\nafis\wp-includes\Requests\Transport\cURL.php)
+0185.830 (1) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (cURL error 6: Could not resolve host: auth.updraftplus.com) (http_request_failed)
+0185.832 (1) An error condition has occurred for the first time during this job
+0185.836 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0185.838 (1) Number of backup sets in history: 2; groups (db): 1
+0185.840 (1) Examining (for databases) backup set with group_id=0, nonce=e769b3c3c682, datestamp=1662450281 (Sep 06 2022 07:44:41)
+0185.842 (1) This backup set is the backup set just made, so will not be deleted.
+0185.842 (1) Examining (for databases) backup set with group_id=0, nonce=b7aca09b0d48, datestamp=1662368229 (Sep 05 2022 08:57:09)
+0185.842 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0185.843 (1) Number of backup sets in history: 2; groups (files): 1
+0185.845 (1) Examining (for files) backup set with nonce=e769b3c3c682, datestamp=1662450281 (Sep 06 2022 07:44:41)
+0185.845 (1) This backup set is the backup set just made, so will not be deleted.
+0185.847 (1) This backup set is the backup set just made, so will not be deleted.
+0185.847 (1) This backup set is the backup set just made, so will not be deleted.
+0185.847 (1) This backup set is the backup set just made, so will not be deleted.
+0185.847 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0185.849 (1) Examining (for files) backup set with nonce=b7aca09b0d48, datestamp=1662368229 (Sep 05 2022 08:57:09)
+0185.849 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0185.849 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0185.854 (1) Resume backup (e769b3c3c682, 1): finish run
+0185.858 (1) [Info] Lock option (updraft_lock_e769b3c3c682, wp_options) released
+0185.861 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0185.865 (1) No email will/can be sent - the user has not configured an email address.
+0185.866 (1) The backup has not finished; a resumption is scheduled
+0864.362 (2) Opened log file at time: Tue, 06 Sep 2022 07:59:05 +0000 on http://localhost/nafis
+0864.365 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.19 WP: 6.0.2 PHP: 8.1.6 (apache2handler, Windows NT DESKTOP-CR7R9NH 10.0 build 22000 (Windows 11) AMD64) MySQL: 10.4.24-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.6 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 116M | 142M) multisite: N openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0864.367 (2) Free space on disk containing Updraft's temporary directory: 73343.2 MB
+0864.370 (2) Requesting backup semaphore lock (e769b3c3c682)
+0864.373 (2) [Info] Lock (updraft_lock_e769b3c3c682, wp_options) acquired
+0864.377 (2) Backup run: resumption=2, nonce=e769b3c3c682, file_nonce=e769b3c3c682 begun at=1662450281 (864s ago), job type=backup
+0864.381 (2) Scheduling a resumption (3) after 583 seconds (1662451728) in case this run gets aborted
+0864.402 (2) Checking if we have a zip executable available
+0864.403 (2) Creation of backups of directories: already finished
+0864.408 (2) Saving backup status to database (elements: 8)
+0864.418 (2) Database dump (WordPress DB): Creation was completed already
+0864.420 (2) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0864.426 (2) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2843, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\backup.php)
+0864.430 (2) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0864.431 (2) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0864.432 (2) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0864.434 (2) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-others.zip: others: This file has not yet been successfully uploaded: will queue
+0864.436 (2) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db.gz: db: This file has not yet been successfully uploaded: will queue
+0864.437 (2) Saving backup history. Total backup size: 89.2 MB
+0864.441 (2) Requesting upload of the files that have not yet been successfully uploaded (5)
+0864.444 (2) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0864.446 (2) Beginning dispatch of backup to remote (googledrive) (instance identifier s-1dcbd2a0e2f544fc797e43a0cf9fbd40)
+0864.449 (2) PHP event: code E_DEPRECATED: Return type of Requests_Cookie_Jar::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 63, C:\xampp\htdocs\nafis\wp-includes\Requests\Cookie\Jar.php)
+0864.450 (2) PHP event: code E_DEPRECATED: Return type of Requests_Cookie_Jar::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 73, C:\xampp\htdocs\nafis\wp-includes\Requests\Cookie\Jar.php)
+0864.452 (2) PHP event: code E_DEPRECATED: Return type of Requests_Cookie_Jar::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 89, C:\xampp\htdocs\nafis\wp-includes\Requests\Cookie\Jar.php)
+0864.453 (2) PHP event: code E_DEPRECATED: Return type of Requests_Cookie_Jar::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 102, C:\xampp\htdocs\nafis\wp-includes\Requests\Cookie\Jar.php)
+0864.454 (2) PHP event: code E_DEPRECATED: Return type of Requests_Cookie_Jar::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 111, C:\xampp\htdocs\nafis\wp-includes\Requests\Cookie\Jar.php)
+0864.462 (2) PHP event: code E_DEPRECATED: http_build_query(): Passing null to parameter #2 ($numeric_prefix) of type string is deprecated (line 345, C:\xampp\htdocs\nafis\wp-includes\Requests\Transport\cURL.php)
+0865.852 (2) PHP event: code E_DEPRECATED: Return type of Requests_Utility_CaseInsensitiveDictionary::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 40, C:\xampp\htdocs\nafis\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php)
+0865.855 (2) PHP event: code E_DEPRECATED: Return type of Requests_Utility_CaseInsensitiveDictionary::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 51, C:\xampp\htdocs\nafis\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php)
+0865.857 (2) PHP event: code E_DEPRECATED: Return type of Requests_Utility_CaseInsensitiveDictionary::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 68, C:\xampp\htdocs\nafis\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php)
+0865.858 (2) PHP event: code E_DEPRECATED: Return type of Requests_Utility_CaseInsensitiveDictionary::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 82, C:\xampp\htdocs\nafis\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php)
+0865.859 (2) PHP event: code E_DEPRECATED: Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 91, C:\xampp\htdocs\nafis\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php)
+0865.884 (2) PHP event: code E_DEPRECATED: Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 249, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\includes\Google\Model.php)
+0865.886 (2) PHP event: code E_DEPRECATED: Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 254, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\includes\Google\Model.php)
+0865.888 (2) PHP event: code E_DEPRECATED: Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 261, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\includes\Google\Model.php)
+0865.890 (2) PHP event: code E_DEPRECATED: Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 271, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\includes\Google\Model.php)
+0865.892 (2) PHP event: code E_DEPRECATED: Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 24, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\includes\Google\Collection.php)
+0865.894 (2) PHP event: code E_DEPRECATED: Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 40, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\includes\Google\Collection.php)
+0865.896 (2) PHP event: code E_DEPRECATED: Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 32, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\includes\Google\Collection.php)
+0865.897 (2) PHP event: code E_DEPRECATED: Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 45, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\includes\Google\Collection.php)
+0865.899 (2) PHP event: code E_DEPRECATED: Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 16, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\includes\Google\Collection.php)
+0865.901 (2) PHP event: code E_DEPRECATED: Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 51, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\includes\Google\Collection.php)
+0867.578 (2) Google Drive: quota usage: used=4351.2 MB, total=15360 MB, available=11008.8 MB
+0867.580 (2) Google Drive: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip: Attempting to upload to Google Drive (into folder id: 1oZDwICuXRFHYdIPsx90RzrbtvwBg5phO)
+0867.583 (2) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 109, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\includes\google-extensions.php)
+0872.304 (2) Googledrive chunked upload: 1.5 % uploaded (1048576)
+0876.649 (2) Googledrive chunked upload: 3.1 % uploaded (2097152)
+0881.008 (2) Googledrive chunked upload: 4.6 % uploaded (3145728)
+0885.903 (2) Googledrive chunked upload: 6.2 % uploaded (4194304)
+0891.503 (2) Googledrive chunked upload: 7.7 % uploaded (5242880)
+0896.258 (2) Googledrive chunked upload: 9.2 % uploaded (6291456)
+0901.095 (2) Googledrive chunked upload: 10.8 % uploaded (7340032)
+0905.086 (2) Googledrive chunked upload: 12.3 % uploaded (8388608)
+0909.465 (2) Googledrive chunked upload: 13.9 % uploaded (9437184)
+0913.953 (2) Googledrive chunked upload: 15.4 % uploaded (10485760)
+0917.993 (2) Googledrive chunked upload: 17 % uploaded (11534336)
+0922.260 (2) Googledrive chunked upload: 18.5 % uploaded (12582912)
+0926.562 (2) Googledrive chunked upload: 20 % uploaded (13631488)
+0931.128 (2) Googledrive chunked upload: 21.6 % uploaded (14680064)
+0942.818 (2) PHP event: code E_WARNING: mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it (line 1756, C:\xampp\htdocs\nafis\wp-includes\wp-db.php)
+0942.819 (2) PHP Fatal error (Error) has occurred during backup uploads to the googledrive. Error Message: mysqli object is not fully initialized (Code: 0, line 1260 in C:\xampp\htdocs\nafis\wp-includes\wp-db.php)
+2137.677 (3) Opened log file at time: Tue, 06 Sep 2022 08:20:18 +0000 on http://localhost/nafis
+2137.680 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.19 WP: 6.0.2 PHP: 8.1.6 (apache2handler, Windows NT DESKTOP-CR7R9NH 10.0 build 22000 (Windows 11) AMD64) MySQL: 10.4.24-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/8.1.6 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 115.4M | 120M) multisite: N openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+2137.683 (3) Free space on disk containing Updraft's temporary directory: 73339 MB
+2137.686 (3) Requesting backup semaphore lock (e769b3c3c682)
+2137.691 (3) [Info] Lock (updraft_lock_e769b3c3c682, wp_options) acquired
+2137.696 (3) Backup run: resumption=3, nonce=e769b3c3c682, file_nonce=e769b3c3c682 begun at=1662450281 (2137s ago), job type=backup, previous check-in=66.76s
+2137.701 (3) Scheduling a resumption (4) after 583 seconds (1662453001) in case this run gets aborted
+2137.714 (3) Checking if we have a zip executable available
+2137.717 (3) Creation of backups of directories: already finished
+2137.720 (3) Saving backup status to database (elements: 8)
+2137.729 (3) Database dump (WordPress DB): Creation was completed already
+2137.732 (3) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+2137.738 (3) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2843, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\backup.php)
+2137.745 (3) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2137.748 (3) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2137.752 (3) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2137.755 (3) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-others.zip: others: This file has not yet been successfully uploaded: will queue
+2137.759 (3) backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db.gz: db: This file has not yet been successfully uploaded: will queue
+2137.762 (3) Saving backup history. Total backup size: 89.2 MB
+2137.769 (3) Requesting upload of the files that have not yet been successfully uploaded (5)
+2137.773 (3) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+2137.776 (3) Beginning dispatch of backup to remote (googledrive) (instance identifier s-1dcbd2a0e2f544fc797e43a0cf9fbd40)
+2137.788 (3) PHP event: code E_DEPRECATED: Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 249, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\includes\Google\Model.php)
+2137.791 (3) PHP event: code E_DEPRECATED: Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 254, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\includes\Google\Model.php)
+2137.794 (3) PHP event: code E_DEPRECATED: Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 261, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\includes\Google\Model.php)
+2137.797 (3) PHP event: code E_DEPRECATED: Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 271, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\includes\Google\Model.php)
+2137.800 (3) PHP event: code E_DEPRECATED: Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 24, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\includes\Google\Collection.php)
+2137.802 (3) PHP event: code E_DEPRECATED: Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 40, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\includes\Google\Collection.php)
+2137.805 (3) PHP event: code E_DEPRECATED: Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 32, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\includes\Google\Collection.php)
+2137.808 (3) PHP event: code E_DEPRECATED: Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 45, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\includes\Google\Collection.php)
+2137.811 (3) PHP event: code E_DEPRECATED: Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 16, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\includes\Google\Collection.php)
+2137.813 (3) PHP event: code E_DEPRECATED: Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice (line 51, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\includes\Google\Collection.php)
+2139.243 (3) Google Drive: quota usage: used=4351.2 MB, total=15360 MB, available=11008.8 MB
+2139.255 (3) Google Drive: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip: Attempting to upload to Google Drive (into folder id: 1oZDwICuXRFHYdIPsx90RzrbtvwBg5phO)
+2139.432 (3) Google Drive: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip: upload already began; attempting to resume from byte 15728639
+2139.435 (3) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 109, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\includes\google-extensions.php)
+2144.243 (3) Googledrive chunked upload: 24.7 % uploaded (16777216)
+2150.645 (3) Googledrive chunked upload: 26.2 % uploaded (17825792)
+2155.487 (3) Googledrive chunked upload: 27.7 % uploaded (18874368)
+2159.963 (3) Googledrive chunked upload: 29.3 % uploaded (19922944)
+2163.660 (3) Googledrive chunked upload: 30.8 % uploaded (20971520)
+2168.690 (3) Googledrive chunked upload: 32.4 % uploaded (22020096)
+2175.555 (3) Googledrive chunked upload: 33.9 % uploaded (23068672)
+2180.178 (3) Googledrive chunked upload: 35.5 % uploaded (24117248)
+2187.646 (3) Googledrive chunked upload: 37 % uploaded (25165824)
+2192.636 (3) Googledrive chunked upload: 38.5 % uploaded (26214400)
+2198.784 (3) Googledrive chunked upload: 40.1 % uploaded (27262976)
+2204.494 (3) Googledrive chunked upload: 41.6 % uploaded (28311552)
+2209.500 (3) Googledrive chunked upload: 43.2 % uploaded (29360128)
+2216.208 (3) Googledrive chunked upload: 44.7 % uploaded (30408704)
+2222.396 (3) Googledrive chunked upload: 46.2 % uploaded (31457280)
+2227.979 (3) Googledrive chunked upload: 47.8 % uploaded (32505856)
+2233.407 (3) Googledrive chunked upload: 49.3 % uploaded (33554432)
+2238.168 (3) Googledrive chunked upload: 50.9 % uploaded (34603008)
+2242.861 (3) Googledrive chunked upload: 52.4 % uploaded (35651584)
+2249.288 (3) Googledrive chunked upload: 54 % uploaded (36700160)
+2253.732 (3) Googledrive chunked upload: 55.5 % uploaded (37748736)
+2257.981 (3) Googledrive chunked upload: 57 % uploaded (38797312)
+2263.415 (3) Googledrive chunked upload: 58.6 % uploaded (39845888)
+2268.261 (3) Googledrive chunked upload: 60.1 % uploaded (40894464)
+2275.653 (3) Googledrive chunked upload: 61.7 % uploaded (41943040)
+2284.069 (3) Googledrive chunked upload: 63.2 % uploaded (42991616)
+2295.115 (3) Googledrive chunked upload: 64.7 % uploaded (44040192)
+2301.947 (3) Googledrive chunked upload: 66.3 % uploaded (45088768)
+2307.779 (3) Googledrive chunked upload: 67.8 % uploaded (46137344)
+2312.630 (3) Googledrive chunked upload: 69.4 % uploaded (47185920)
+2317.195 (3) Googledrive chunked upload: 70.9 % uploaded (48234496)
+2321.473 (3) Googledrive chunked upload: 72.5 % uploaded (49283072)
+2329.515 (3) Googledrive chunked upload: 74 % uploaded (50331648)
+2339.331 (3) Googledrive chunked upload: 75.5 % uploaded (51380224)
+2345.529 (3) Googledrive chunked upload: 77.1 % uploaded (52428800)
+2350.806 (3) Googledrive chunked upload: 78.6 % uploaded (53477376)
+2360.001 (3) Googledrive chunked upload: 80.2 % uploaded (54525952)
+2367.450 (3) Googledrive chunked upload: 81.7 % uploaded (55574528)
+2376.433 (3) Googledrive chunked upload: 83.2 % uploaded (56623104)
+2383.370 (3) Googledrive chunked upload: 84.8 % uploaded (57671680)
+2390.469 (3) Googledrive chunked upload: 86.3 % uploaded (58720256)
+2396.898 (3) Googledrive chunked upload: 87.9 % uploaded (59768832)
+2405.363 (3) Googledrive chunked upload: 89.4 % uploaded (60817408)
+2413.247 (3) Googledrive chunked upload: 90.9 % uploaded (61865984)
+2420.518 (3) Googledrive chunked upload: 92.5 % uploaded (62914560)
+2427.008 (3) Googledrive chunked upload: 94 % uploaded (63963136)
+2433.629 (3) Googledrive chunked upload: 95.6 % uploaded (65011712)
+2439.121 (3) Googledrive chunked upload: 97.1 % uploaded (66060288)
+2445.895 (3) Googledrive chunked upload: 98.7 % uploaded (67108864)
+2453.256 (3) Googledrive chunked upload: 100 % uploaded (67108864)
+2453.263 (3) Google Drive: OK: Archive backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip uploaded in 314.01 seconds
+2453.265 (3) Recording as successfully uploaded: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip
+2453.284 (3) Deleting local file: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip: OK
+2453.286 (3) Deleting zip manifest (backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-plugins.zip.list.tmp)
+2453.769 (3) Google Drive: quota usage: used=4416.1 MB, total=15360 MB, available=10943.9 MB
+2453.771 (3) Google Drive: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-themes.zip: Attempting to upload to Google Drive (into folder id: 1oZDwICuXRFHYdIPsx90RzrbtvwBg5phO)
+2453.772 (3) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 109, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\includes\google-extensions.php)
+2458.204 (3) Googledrive chunked upload: 6.4 % uploaded (1048576)
+2462.745 (3) Googledrive chunked upload: 12.8 % uploaded (2097152)
+2467.144 (3) Googledrive chunked upload: 19.2 % uploaded (3145728)
+2471.544 (3) Googledrive chunked upload: 25.6 % uploaded (4194304)
+2475.883 (3) Googledrive chunked upload: 32 % uploaded (5242880)
+2480.193 (3) Googledrive chunked upload: 38.4 % uploaded (6291456)
+2484.834 (3) Googledrive chunked upload: 44.8 % uploaded (7340032)
+2488.347 (3) Googledrive chunked upload: 51.1 % uploaded (8388608)
+2492.933 (3) Googledrive chunked upload: 57.5 % uploaded (9437184)
+2498.169 (3) Googledrive chunked upload: 63.9 % uploaded (10485760)
+2502.114 (3) Googledrive chunked upload: 70.3 % uploaded (11534336)
+2506.404 (3) Googledrive chunked upload: 76.7 % uploaded (12582912)
+2510.278 (3) Googledrive chunked upload: 83.1 % uploaded (13631488)
+2514.498 (3) Googledrive chunked upload: 89.5 % uploaded (14680064)
+2518.271 (3) Googledrive chunked upload: 95.9 % uploaded (15728640)
+2522.191 (3) Googledrive chunked upload: 100 % uploaded (15728640)
+2522.204 (3) Google Drive: OK: Archive backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-themes.zip uploaded in 68.43 seconds
+2522.207 (3) Recording as successfully uploaded: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-themes.zip
+2522.221 (3) Deleting local file: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-themes.zip: OK
+2522.226 (3) Deleting zip manifest (backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-themes.zip.list.tmp)
+2522.675 (3) Google Drive: quota usage: used=4431.7 MB, total=15360 MB, available=10928.3 MB
+2522.679 (3) Google Drive: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-uploads.zip: Attempting to upload to Google Drive (into folder id: 1oZDwICuXRFHYdIPsx90RzrbtvwBg5phO)
+2522.685 (3) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 109, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\includes\google-extensions.php)
+2527.447 (3) Googledrive chunked upload: 13.2 % uploaded (1048576)
+2531.645 (3) Googledrive chunked upload: 26.4 % uploaded (2097152)
+2535.568 (3) Googledrive chunked upload: 39.5 % uploaded (3145728)
+2539.717 (3) Googledrive chunked upload: 52.7 % uploaded (4194304)
+2544.285 (3) Googledrive chunked upload: 65.9 % uploaded (5242880)
+2548.550 (3) Googledrive chunked upload: 79.1 % uploaded (6291456)
+2552.564 (3) Googledrive chunked upload: 92.2 % uploaded (7340032)
+2556.740 (3) Googledrive chunked upload: 100 % uploaded (7340032)
+2556.749 (3) Google Drive: OK: Archive backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-uploads.zip uploaded in 34.06 seconds
+2556.752 (3) Recording as successfully uploaded: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-uploads.zip
+2556.761 (3) Deleting local file: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-uploads.zip: OK
+2556.764 (3) Deleting zip manifest (backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-uploads.zip.list.tmp)
+2557.426 (3) Google Drive: quota usage: used=4439.3 MB, total=15360 MB, available=10920.7 MB
+2557.429 (3) Google Drive: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-others.zip: Attempting to upload to Google Drive (into folder id: 1oZDwICuXRFHYdIPsx90RzrbtvwBg5phO)
+2557.431 (3) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 109, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\includes\google-extensions.php)
+2559.151 (3) Googledrive chunked upload: 100 % uploaded
+2559.155 (3) Google Drive: OK: Archive backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-others.zip uploaded in 1.72 seconds
+2559.156 (3) Recording as successfully uploaded: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-others.zip
+2559.159 (3) Deleting local file: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-others.zip: OK
+2559.161 (3) Deleting zip manifest (backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-others.zip.list.tmp)
+2559.826 (3) Google Drive: quota usage: used=4439.3 MB, total=15360 MB, available=10920.7 MB
+2559.828 (3) Google Drive: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db.gz: Attempting to upload to Google Drive (into folder id: 1oZDwICuXRFHYdIPsx90RzrbtvwBg5phO)
+2559.830 (3) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 109, C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\includes\google-extensions.php)
+2564.713 (3) Googledrive chunked upload: 91.7 % uploaded (1048576)
+2566.509 (3) Googledrive chunked upload: 100 % uploaded (1048576)
+2566.522 (3) Google Drive: OK: Archive backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db.gz uploaded in 6.69 seconds
+2566.526 (3) Recording as successfully uploaded: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db.gz
+2566.536 (3) Deleting local file: backup_2022-09-06-0744_Simply_Natural_e769b3c3c682-db.gz: OK
+2566.548 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2566.551 (3) Number of backup sets in history: 2; groups (db): 1
+2566.554 (3) Examining (for databases) backup set with group_id=0, nonce=e769b3c3c682, datestamp=1662450281 (Sep 06 2022 07:44:41)
+2566.557 (3) This backup set is the backup set just made, so will not be deleted.
+2566.557 (3) Examining (for databases) backup set with group_id=0, nonce=b7aca09b0d48, datestamp=1662368229 (Sep 05 2022 08:57:09)
+2566.557 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+2566.560 (3) Number of backup sets in history: 2; groups (files): 1
+2566.563 (3) Examining (for files) backup set with nonce=e769b3c3c682, datestamp=1662450281 (Sep 06 2022 07:44:41)
+2566.563 (3) This backup set is the backup set just made, so will not be deleted.
+2566.565 (3) This backup set is the backup set just made, so will not be deleted.
+2566.565 (3) This backup set is the backup set just made, so will not be deleted.
+2566.566 (3) This backup set is the backup set just made, so will not be deleted.
+2566.566 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+2566.568 (3) Examining (for files) backup set with nonce=b7aca09b0d48, datestamp=1662368229 (Sep 05 2022 08:57:09)
+2566.568 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+2566.569 (3) Retain: saving new backup history (sets now: 2) and finishing retain operation
+2566.577 (3) Resume backup (e769b3c3c682, 3): finish run
+2566.584 (3) [Info] Lock option (updraft_lock_e769b3c3c682, wp_options) released
+2566.589 (3) There were no errors in the uploads, so the 'resume' event (4) is being unscheduled
+2566.603 (3) No email will/can be sent - the user has not configured an email address.
+2566.605 (3) The backup apparently succeeded and is now complete

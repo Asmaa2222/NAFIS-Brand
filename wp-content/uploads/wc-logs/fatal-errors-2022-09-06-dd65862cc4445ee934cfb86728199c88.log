@@ -1,0 +1,19 @@
+2022-09-06T08:00:24+00:00 CRITICAL Uncaught Error: mysqli object is not fully initialized in C:\xampp\htdocs\nafis\wp-includes\wp-db.php:1260
+Stack trace:
+#0 C:\xampp\htdocs\nafis\wp-includes\wp-db.php(1260): mysqli_real_escape_string(Object(mysqli), 'PHP Fatal error...')
+#1 C:\xampp\htdocs\nafis\wp-includes\wp-db.php(1346): wpdb->_real_escape('PHP Fatal error...')
+#2 [internal function]: wpdb->escape_by_ref('PHP Fatal error...', 0)
+#3 C:\xampp\htdocs\nafis\wp-includes\wp-db.php(1509): array_walk(Array, Array)
+#4 C:\xampp\htdocs\nafis\wp-includes\wp-db.php(2476): wpdb->prepare('UPDATE `wp_opti...', Array)
+#5 C:\xampp\htdocs\nafis\wp-includes\option.php(496): wpdb->update('wp_options', Array, Array)
+#6 C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\options.php(75): update_option('updraft_lastmes...', 'PHP Fatal error...', 'yes')
+#7 C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\class-updraftplus.php(1151): UpdraftPlus_Options::update_updraft_option('updraft_lastmes...', 'PHP Fatal error...', false)
+#8 C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\backup.php(583): UpdraftPlus->log('PHP Fatal error...')
+#9 C:\xampp\htdocs\nafis\wp-content\plugins\updraftplus\class-updraftplus.php(2695): UpdraftPlus_Backup->cloud_backup(Array)
+#10 C:\xampp\htdocs\nafis\wp-includes\class-wp-hook.php(307): UpdraftPlus->backup_resume(2, 'e769b3c3c682')
+#11 C:\xampp\htdocs\nafis\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#12 C:\xampp\htdocs\nafis\wp-includes\plugin.php(524): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\nafis\wp-cron.php(138): do_action_ref_array('updraft_backup_...', Array)
+#14 {main}
+  thrown in C:\xampp\htdocs\nafis\wp-includes\wp-db.php on line 1260
+
